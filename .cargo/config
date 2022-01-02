@@ -1,0 +1,3 @@
+[build]
+target = "thumbv7em-none-eabihf"
+rustflags = ["-Clinker=arm-none-eabi-ld", "-C", "link-arg=-Tlink.ld", "-C", "link-arg=-g"]
